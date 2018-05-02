@@ -7,6 +7,7 @@ from sqlalchemy.orm import sessionmaker
 # import Database and tables need to encounter
 from database_setup import Base, Restaurant, MenuItem
 
+### prepare the database and session
 ## indentify specific database
 engine = create_engine('sqlite:///restaurantmenu.db')
 ## Bind engine to the Base
@@ -18,7 +19,7 @@ DBsession = sessionmaker(bind= engine)
 # create the stage of manipulating Database
 session = DBsession()
 
-## read action
+### read action
 # query the first item
 firstresult = session.query(Restaurant).first()
 print firstresult.name

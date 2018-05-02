@@ -17,16 +17,11 @@ DBsession = sessionmaker(bind= engine)
 # create the stage of manipulating Database
 session = DBsession()
 
-## insert action
-# create one row
-newrestaurant = Restaurant(name = "Pizza Hut")
-# put it to the to-do list
-session.add(newrestaurant)
-# commit the change
+### delete action
+## search the item want to delete
+spinach = session.query(MenuItem).filter_by(name = 'Spinach Ice Cream').one()
+print spinach.restaurant.name
+# delete item
+session.delete(spinach)
 session.commit()
-
-# menu item insert action
-newitem = MenuItem(name="Nice Pizza", description="Nice Pizza in Pizza Hut", course="Entree", price="$10.00", restaurant= newrestaurant)
-
-session.add(newitem)
-session.commit()
+spinach = session.query(MenuItem).filter_by(name = 'Spinach Ice Cream').one()
