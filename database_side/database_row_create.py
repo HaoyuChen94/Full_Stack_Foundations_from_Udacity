@@ -1,5 +1,6 @@
 #__auther__= 'Richard Chen Haoyu'
 
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 # import Database and tables need to encounter
@@ -7,7 +8,9 @@ from database_setup import Base, Restaurant, MenuItem
 
 ### prepare the database and session
 ## indentify specific database
-engine = create_engine('sqlite:///restaurantmenu.db')
+path = os.getcwd()
+path = 'E:\\GitHub\\Full_Stack_Foundations_from_Udacity\\database_side'
+engine = create_engine('sqlite:///' + path + '\\restaurantmenu.db')
 ## Bind engine to the Base
 Base.metadata.bind = engine
 
