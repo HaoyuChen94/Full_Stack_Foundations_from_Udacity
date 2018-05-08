@@ -39,10 +39,9 @@ class webserverHandler(BaseHTTPRequestHandler):
                 self.end_headers()
 
                 output = ""
-                output = ""
                 output += "<html><body>"
                 output += "<h1>你好!</h1> <a href = '/hello'>Back to Hello</a>"
-                output += '''<form method='POST' enctype='multipart/form-data' action='/hello'><h2>What would you like me to say?</h2><input name="message" type="text" ><input type="submit" value="Submit"> </form>'''
+                output += '''<form method='POST' enctype='multipart/form-data' action='/nihao'><h2>What would you like me to say?</h2><input name="message" type="text" ><input type="submit" value="Submit"> </form>'''
                 output += "</body></html>"
                 self.wfile.write(output)
                 print output
