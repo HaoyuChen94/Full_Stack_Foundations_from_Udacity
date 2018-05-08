@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf7e12d-b08e-44c5-b90f-cf5b77837fbb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Web_side/restaurant_web_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_side/Websever.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_side/Websever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_side/database_row_create.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_side/database_row_create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_side/database_row_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_side/database_row_delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_side/database_row_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_side/database_row_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_side/database_row_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_side/database_row_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_side/database_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_side/database_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_side/restaurant_web_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_side/restaurant_web_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_side/restaurantmenu.db" beforeDir="false" afterPath="$PROJECT_DIR$/database_side/restaurantmenu.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="database_row_create.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database_side/database_row_create.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="286">
+              <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="e#35#44#0" expanded="true" />
               </folding>
@@ -32,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Websever.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Websever.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web_side/Websever.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="936">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#50#111#0" expanded="true" />
               </folding>
@@ -44,13 +40,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restaurant_web_example.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="restaurant_web_example.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web_side/restaurant_web_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="408">
+              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
               <folding>
                 <element signature="e#52#113#0" expanded="true" />
+                <element signature="e#708#1690#0" />
+                <element signature="e#1766#4016#0" />
               </folding>
             </state>
           </provider>
@@ -127,16 +125,16 @@
         <option value="$PROJECT_DIR$/database_side/database_row_read.py" />
         <option value="$PROJECT_DIR$/Web_side/restaurant_web.py" />
         <option value="$PROJECT_DIR$/database_side/database_row_create.py" />
-        <option value="$PROJECT_DIR$/Web_side/restaurant_web_example.py" />
         <option value="$PROJECT_DIR$/Web_side/Websever.py" />
+        <option value="$PROJECT_DIR$/Web_side/restaurant_web_example.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-236" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -317,9 +315,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.restaurant_web_example" />
+        <item itemvalue="Python.Websever" />
         <item itemvalue="Python.restaurant_web" />
         <item itemvalue="Python.database_row_read" />
-        <item itemvalue="Python.Websever" />
         <item itemvalue="Python.database_row_update" />
       </list>
     </recent_temporary>
@@ -356,24 +354,45 @@
       <option name="project" value="LOCAL" />
       <updated>1525232795632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update - Edit the database path in the database side">
+      <created>1525740840254</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525740840254</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update - Add post part">
+      <created>1525740907919</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525740907919</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create - example for read through the restaurants in the database in database side">
+      <created>1525740950023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525740950023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1928" y="-236" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12381454" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.34158415" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.3409586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39933994" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21786493" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,7 +409,10 @@
     <MESSAGE value="little test" />
     <MESSAGE value="update the database file to a file structure" />
     <MESSAGE value="update the websever part of responding to multi-language url" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the websever part of responding to multi-language url" />
+    <MESSAGE value="update - Edit the database path in the database side" />
+    <MESSAGE value="update - Add post part" />
+    <MESSAGE value="create - example for read through the restaurants in the database in database side" />
+    <option name="LAST_COMMIT_MESSAGE" value="create - example for read through the restaurants in the database in database side" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -480,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database_side/database_row_create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#35#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database_side/database_row_delete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -530,22 +542,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_side/restaurant_web_example.py">
+    <entry file="file://$PROJECT_DIR$/database_side/database_row_create.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="286">
+          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="16" />
           <folding>
-            <element signature="e#52#113#0" expanded="true" />
+            <element signature="e#35#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web_side/Websever.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="936">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#50#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web_side/restaurant_web_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="e#52#113#0" expanded="true" />
+            <element signature="e#708#1690#0" />
+            <element signature="e#1766#4016#0" />
           </folding>
         </state>
       </provider>
