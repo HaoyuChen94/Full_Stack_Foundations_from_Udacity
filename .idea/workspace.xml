@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="faf7e12d-b08e-44c5-b90f-cf5b77837fbb" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/Web_side/by_Flask/project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_side/by_basic_package/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_side/Websever.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_side/by_basic_package/Websever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_side/restaurant_web_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_side/by_basic_package/restaurant_web_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -334,18 +330,26 @@
       <option name="project" value="LOCAL" />
       <updated>1526091530853</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update - change file path">
+      <created>1526525480884</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1526525480884</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36434108" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748512" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.33898306" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.330033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -393,7 +397,8 @@
     <MESSAGE value="create - add edit delete button, add create page for adding new restaurant" />
     <MESSAGE value="create - little changes" />
     <MESSAGE value="update - add edit and delete part" />
-    <option name="LAST_COMMIT_MESSAGE" value="update - add edit and delete part" />
+    <MESSAGE value="update - change file path" />
+    <option name="LAST_COMMIT_MESSAGE" value="update - change file path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
